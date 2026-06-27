@@ -48,7 +48,7 @@ ACBtn.addEventListener('click', () => {
         score -= ACprice;
         clickps += 1;
         ACowned++;
-        ACprice = Math.ceil(ACprice ** 1.1);
+        ACprice = Math.ceil(ACprice ** 1.04);
         reloadText();
     }
 });
@@ -58,7 +58,7 @@ EBBtn.addEventListener('click', () => {
         score -= EBprice;
         click++;
         EBowned++;
-        EBprice = Math.ceil(EBprice ** 1.11);
+        EBprice = Math.ceil(EBprice ** 1.05);
         reloadText();
     }
 });
@@ -68,7 +68,7 @@ ACPBtn.addEventListener('click', () => {
         score -= ACPprice;
         clickps += 5;
         ACPowned++;
-        ACPprice = Math.ceil(ACPprice ** 1.15);
+        ACPprice = Math.ceil(ACPprice ** 1.07);
         reloadText();
     }
 });
@@ -78,7 +78,7 @@ BMBtn.addEventListener('click', () => {
         score -= BMprice;
         click += 3;
         ACPowned++;
-        BMprice = Math.ceil(BMprice ** 1.15);
+        BMprice = Math.ceil(BMprice ** 1.07);
         reloadText();
     }
 });
