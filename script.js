@@ -77,7 +77,7 @@ BMBtn.addEventListener('click', () => {
     if(score >= BMprice){
         score -= BMprice;
         click += 3;
-        ACPowned++;
+        BMowned++;
         BMprice = Math.ceil(BMprice ** 1.07);
         reloadText();
     }
